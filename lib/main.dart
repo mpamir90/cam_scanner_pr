@@ -1,5 +1,8 @@
+import 'package:cam_scanner/pages/crop_page/crop_page.dart';
+import 'package:cam_scanner/pages/edit_page/edit_page.dart';
 import 'package:cam_scanner/pages/get_started_page/get_started_page.dart';
 import 'package:cam_scanner/pages/home_page/home_page.dart';
+import 'package:cam_scanner/pages/scanner_page/scanner_page.dart';
 import 'package:cam_scanner/pages/splash_page/splash_page.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: "Cam Scanner",
-      home: HomePage(),
+      home: EditPage(),
     );
   }
 }
